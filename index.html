@@ -3,11 +3,36 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
+    <title>hw-04</title>
 </head>
 
 
 <body>
+    <h1 class="main-header">Event Handling</h1>
 
+    <div class="container">
+        <div class="child">
+            <svg height="150" width="150">
+                <circle class="circle1" id="c1" onclick="onCircle1Click()" cx="50" cy="50" r="45"/>
+                <text class="click_counter" id="counter"  x="50" y="50" alignment-baseline="middle">0</text>
+            </svg>
+        </div>
+
+        <div class="child">
+            <svg height="150" width="150">
+                <circle class="circle2" id="c2" onmouseover="onCircle2Hover()" cx="50" cy="50" r="45"/>
+            </svg>
+        </div>
+
+        <div class="child">
+            <svg height="150" width="150">
+                <circle class="circle3" id="c3" onclick="onCircle3Click()" cx="50" cy="50" r="45"/>
+            </svg>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 

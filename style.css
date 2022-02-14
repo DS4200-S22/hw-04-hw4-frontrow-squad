@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.circle1 {
+    fill: lightsalmon;
+    stroke: black;
+    stroke-width: 3;
+}
+
+.circle2 {
+    fill: lightgreen;
+}
+
+.circle3 {
+    fill: lightskyblue;
+    stroke: black;
+    stroke-width: 3;
+}
+
+.click_counter {
+    text-anchor: middle;
+}
